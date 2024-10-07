@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "CITY",
+        "title": "Large article title",
+        "image": "beach.jpg",
+        "description": "Lorem ipsum dolor sit amet, in eam odia amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquntiam.",
+        "time": "2m ago",
+        "danchorName": "",
+        "anchorURL": ""
+    },
+    {
+        "id": 2,
+        "name": "TRAVEL",
+        "title": "Large article title",
+        "image": "new-york.jpg",
+        "description": "Lorem ipsum dolor sit amet, in eam odia amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquntiam.",
+        "time": "2min ago",
+        "danchorName": "",
+        "anchorURL": ""
+    },
+    {
+        "id": 3,
+        "name": "",
+        "title": "Small title",
+        "image": "river.jpg",
+        "description": "",
+        "time": "3h ago by",
+        "anchorName": "Worldnews",
+        "anchorURL": "https://www.google.com"
+    },
+    {
+        "id": 4,
+        "name": "",
+        "title": "Small title",
+        "image": "river.jpg",
+        "description": "",
+        "time": "4h ago by",
+        "anchorName": "Days",
+        "anchorURL": "https://www.google.com"
+    },
+    {
+        "id": 5,
+        "name": "",
+        "title": "Small title",
+        "image": "river.jpg",
+        "description": "",
+        "time": "3h ago by",
+        "anchorName": "Monica",
+        "anchorURL": "https://www.google.com"
+    }
+]

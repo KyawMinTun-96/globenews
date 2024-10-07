@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f8fa;
+}
+
+p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+a {
+    color: #000;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+small {
+    font-size: 12px;
+}
+
+
+.bg-clr-1 { background-color: #f7f8fa;}
+.bg-clr-2 { background-color: #fb6980;}
+.bg-clr-3 { background-color: #a6adb5}
+
+.clr-1 { color: #f7f8fa; }
+.clr-2 { color: #fb6980; }
+.clr-3 { color: #a6adb5 }
+
+
+
+
+
+/* Common CSS */
+.nav-item a {
+    font-size: 15px;
+}
+
+.my-active {
+    font-weight: bold;
+}
+
+.profile-text h2,
+.banner-title {
+    color: #fff;
+    position: relative;
+}
+
+.profile-text h2::after,
+.banner-title::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -50%;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+.sec-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* NavBar CSS */
+.user-profile {
+    width: 30px;
+    height: 30px;
+    background-color: #fb6980;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.user-profile img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu-btn {
+    box-shadow: none;
+    border: none;
+}
+
+
+
+
+
+/* Home CSS */
+
+/* Banner */
+.banner-sec {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.banner-profile {
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-profile img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    object-fit: cover;
+}
+
+.profile-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.profile-text p {
+    color: #fff;
+}
+
+.profile-text p:first-of-type {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+
+.banner-info {
+    width: 35%;
+    height: 100%;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.banner-title {
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title::after {
+    background-color: #a6adb5
+}
+
+.banner-title h2 {
+    font-size: 20px;
+    color: #000;
+}
+
+.banner-btn button{
+    font-weight: bold;
+}
+
+.banner-body {
+    margin-top: 50px;
+}
+
+.card-body h3 {
+    font-size: 16px;
+}
+
+.card-body h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-body > p {
+    font-size: 14px;
+}
+
+
+
+/* Trending */
+.trending-sec {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+/* Happening Sec */
+.happening-sec {
+    margin-bottom: 50px;
+}
+
+.happen-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.happen-left {
+    width: 70%;
+}
+
+.happen-overlay > h5:first-of-type{
+    margin-bottom: 200px;
+}
+
+.happen-right {
+    width: 30%;
+}
+
+
+/* Footer Sec */
+.footer-sec {
+    background-color: #a6adb5;
+    padding: 50px 0;
+}
+
+.footer-sec h3 {
+    color: #fff;
+}
+
+.footer-sec ul li {
+    padding: 5px 0;
+}
+
+.footer-sec ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-sec ul li a:hover {
+    text-decoration: underline;
+}
+
+.scriber {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.scriber input {
+    padding: 5px 10px;
+    border: 1.5px solid #fff;
+    background-color: #a6adb5;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.scriber input::placeholder {
+    color: #fff;
+    background-color: #a6adb5;
+}
+
+.scriber input:focus{
+    outline: none;
+    border: 1.5px solid #fff;
+    opacity: 0.5;
+}
+
+.scriber span {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.social-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
